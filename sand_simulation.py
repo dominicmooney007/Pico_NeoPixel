@@ -24,7 +24,7 @@ DATA_PIN = 0
 WIDTH = 8
 HEIGHT = 8
 NUM_LEDS = WIDTH * HEIGHT
-BRIGHTNESS = 0.4
+BRIGHTNESS = 0.1
 
 # Simulation settings
 SPAWN_RATE = 0.3         # Chance to spawn new grain each frame
@@ -366,8 +366,8 @@ def run_sand_simulation():
         print("\nSimulation ended.")
 
 if __name__ == "__main__":
-    run_sand_simulation()
+    # run_sand_simulation()
 
     # Alternative modes:
-    # run_hourglass()
+    run_hourglass()
     # run_waterfall()
